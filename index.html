@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dany — Writing Portfolio</title>
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header" role="banner">
+            <a class="brand" href="#" aria-label="Home">
+                <div class="logo">D</div>
+                <h1>Danielly Costa</h1>
+            </a>
+
+            <nav class="nav" role="navigation" aria-label="Main">
+                <a href="#posts">Posts</a>
+                <a href="#about">About</a>
+                <a class="btn" href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero" aria-labelledby="hero-title">
+                <div class="hero__text">
+                    <h2 id="hero-title" class="hero__title">Writing that bites — soft and dramatic.</h2>
+                    <p class="hero__lead">Blog writer, movie, TV show, anime & K-drama reviewer, and storytelling lover.
+                        Here you'll find my texts, analyses, reviews, and recommendations. Below are my latest pieces —
+                        click on any card to open the full post.</p>
+                    <div class="hero__cta">
+                        <a class="btn" href="#posts">See latest posts</a>
+                        <a href="#about"
+                            style="color:var(--muted); text-decoration:none; padding:.6rem .9rem; border-radius:10px;">About
+                            Me</a>
+                    </div>
+                </div>
+                <div style="min-width:150px; text-align:center;">
+                    <div
+                        style="width:140px;height:140px;border-radius:18px;background:linear-gradient(135deg,var(--accent),var(--accent-2)); display:inline-grid; place-items:center; color:#07121a; font-family:'Krona One'; font-size:2.2rem;">
+                        D
+                    </div>
+                </div>
+            </section>
+
+            <h3 class="section-title" id="posts">LATEST POSTS</h3>
+
+            <section class="carousel" aria-label="Carrossel de posts">
+                <button class="arrow" id="prev" aria-label="Previous post" title="Previous">&#10094;</button>
+
+                <div class="carousel-track" id="track">
+
+                    <!-- Card 1 -->
+                    <a href="/aftersun.html" class="card-link-wrapper">
+                        <article class="card" tabindex="0" aria-labelledby="t1">
+                            <div class="corner">Review</div>
+                            <div class="thumb"><img src="./assets/images/aftersun.png" alt="Thumb do post 1"></div>
+                            <div class="meta"><span class="tag">Cinema</span><span>• Nov 3, 2025</span></div>
+                            <h3 id="t1">Aftersun — Movie review </h3>
+                            <p class="excerpt">How much of our parents do we truly know? And when do we start realizing
+                                they
+                                are just as human as we are?</p>
+                            <span class="read-more">Read more →</span>
+                        </article>
+                    </a>
+
+                    <!-- Card 2 -->
+                    <a href="/anime.html" class="card-link-wrapper">
+                        <article class="card" tabindex="0" aria-labelledby="t2">
+                            <div class="corner">List</div>
+                            <div class="thumb"><img src="./assets/images/frieren.png" alt="Thumb do post 2"></div>
+                            <div class="meta"><span class="tag">Anime</span><span>• Oct 29, 2025</span></div>
+                            <h3 id="t2">Wanting to get into anime? I got you.</h3>
+                            <p class="excerpt">New to anime and feeling overwhelmed by all the choices? Here’s your
+                                simple
+                                starter guide to help you find the perfect shows to begin your journey.</p>
+                            <span class="read-more">Read more →</span>
+                        </article>
+                    </a>
+
+                    <!-- Card 3 -->
+                    <a href="/kdramas.html" class="card-link-wrapper">
+                        <article class="card" tabindex="0" aria-labelledby="t3">
+                            <div class="corner">Recommendation</div>
+                            <div class="thumb"><img src="./assets/images/move-to-heaven.png" alt="Thumb do post 3">
+                            </div>
+                            <div class="meta"><span class="tag">K-dramas</span><span>• Ago 20, 2025</span></div>
+                            <h3 id="t3">If you need a good cry, watch these 5 K-dramas</h3>
+                            <p class="excerpt">An emotional selection of five k-dramas known for their impactful
+                                storytelling, profound themes, and unforgettable moments.</p>
+                            <span class="read-more">Read more →</span>
+                        </article>
+                    </a>
+
+                </div>
+
+                <button class="arrow" id="next" aria-label="Next post" title="Next">&#10095;</button>
+            </section>
+
+        </main>
+
+        <footer style="margin-top:2.2rem; text-align:center; color:rgba(215,215,215,0.6); font-size:.95rem;">
+            <small>© 2025 Danielly Costa — writing portfolio</small>
+            <p class="copyright">
+                All images, posters and stills used on this website belong to their respective owners and are used under
+                fair use for review, commentary and educational purposes. No copyright infringement intended.
+            </p>
+
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+A personal blog website built to share reviews, analyses, and recommendations on movies, TV shows, anime, and K-dramas. Designed with a clean layout, responsive cards, and a focus on storytelling.
